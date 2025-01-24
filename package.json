@@ -2,6 +2,9 @@
   "name": "simsciex",
   "version": "1.0.0",
   "description": "Project Updates",
+  "repository": {
+    "url": "https://github.com/project-manager-globe/SimSciex-Project.git"
+},
   "scripts": {
     "start": "rm -rf .parcel-cache && parcel index.html --open ",
     "clean": "rm -rf dist/* .parcel-cache",

@@ -2,14 +2,13 @@
   "name": "simsciex",
   "version": "1.0.0",
   "description": "Project Updates",
-   "main": "index.js",
   "repository": {
     "url": "https://github.com/project-manager-globe/SimSciex-Project.git"
-},
+  },
   "scripts": {
-    "start": "parcel src/index.html --open",
+    "start": "parcel ./index.html --open",
     "clean": "rm -rf dist/",
-    "build:parcel": "parcel build src/index.html  --no-source-maps --public-url ./",
+    "build:parcel": "parcel build ./index.html  --no-source-maps --public-url ./",
     "build": "npm run clean && npm run build:parcel",
     "type": "module"
   },
@@ -22,5 +21,8 @@
     "imagesloaded": "^5.0.0",
     "parcel": "^2.13.3",
     "splitting": "^1.1.0"
+  },
+  "devDependencies": {
+    "svgo": "^3.3.2"
   }
 }

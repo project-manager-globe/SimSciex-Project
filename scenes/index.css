@@ -150,14 +150,14 @@ a:visited{
 
 /* --------------------------- NAVBAR ---------------------------------*/
 .bgimg {
-    background-image: url('./Devision2/dev2Imgs/lines.jpg');
+
     height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
     color: white;
-    font-family:niveau-grotesk, sans-serif;
-    font-size: 45px;
+    font-family: "Courier New", Courier, monospace;
+    
   }
 
 .topleft {
@@ -171,58 +171,31 @@ a:visited{
   .middle {
 	position: inherit;
     top: 5%;
-    left: 80%;
+    left: 50%;
     transform: translate(-50%, -50%);
  
   }
 
   .sideTable{
-    text-decoration: none;
-    font-size: 30px;
-	margin-bottom: 10%;
+	font-size: large;
+	text-decoration: solid;
+	margin-bottom: 15%;
   }
 
 .navbar {
     border:none;
     border-radius:0;
     margin:0px;
-    background: #f1fdff;
-    box-shadow: 0px 7px 21px -12px rgba(0, 0, 0, 0.5);
+	padding-right: 15px;
+    background: #F2F2F2;
+    box-shadow: 0px 7px 21px -12px rgba(0, 0, 0, 0.8);
 }
 
-hr {
-  margin: auto;
-  width: 40%;
-}
-
-.myTopButton{
-	color: rgb(109, 136, 187);
-    padding-right: 20px;
-    font-size:22px;
-    cursor:pointer;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-  
-}
-
-.myTopButton:hover{
-    color: #0137FB;
-	font-weight: 600;
-	outline: none;
-  
+.navbar-brand{
+	height:45px;
 }
 
 
-.login:hover{
-	font-size:25px;
-	color: #FF6700;
-}
-
-a:hover {
-	text-decoration: none;
-	color: var(--color-link-hover);
-	outline: none;
-}
 
 /* ----------------------------- Deleted from Navbar to here, moved to styles.css -------*/
 

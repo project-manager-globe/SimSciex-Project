@@ -130,7 +130,7 @@ p {
 
 .top-container .next-container {
   background: linear-gradient(300deg, #024751, #024751, #00d47e, #689197) 0 0 / 180% 180%;
-  margin: 100px 0;
+  margin: 70px 0;
   animation: 8s infinite gradient-animation;
 }
 

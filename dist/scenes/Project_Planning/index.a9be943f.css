@@ -97,12 +97,10 @@ a:visited {
 
 .bgimg {
   color: #fff;
-  background-image: url("../../lines.57efaf60.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
-  font-family: niveau-grotesk, sans-serif;
-  font-size: 45px;
+  font-family: Courier New, Courier, monospace;
   position: relative;
 }
 
@@ -115,52 +113,27 @@ a:visited {
 .middle {
   position: inherit;
   top: 5%;
-  left: 80%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .sideTable {
-  margin-bottom: 10%;
-  font-size: 30px;
+  margin-bottom: 15%;
+  font-size: large;
   text-decoration: none;
 }
 
 .navbar {
-  background: #f1fdff;
+  background: #f2f2f2;
   border: none;
   border-radius: 0;
   margin: 0;
-  box-shadow: 0 7px 21px -12px #00000080;
+  padding-right: 15px;
+  box-shadow: 0 7px 21px -12px #000c;
 }
 
-hr {
-  width: 40%;
-  margin: auto;
-}
-
-.myTopButton {
-  color: #6d88bb;
-  cursor: pointer;
-  padding-right: 20px;
-  font-family: Georgia, Times New Roman, Times, serif;
-  font-size: 22px;
-}
-
-.myTopButton:hover {
-  color: #0137fb;
-  outline: none;
-  font-weight: 600;
-}
-
-.login:hover {
-  color: #ff6700;
-  font-size: 25px;
-}
-
-a:hover {
-  color: var(--color-link-hover);
-  outline: none;
-  text-decoration: none;
+.navbar-brand {
+  height: 45px;
 }
 
 a:focus {

@@ -1,100 +1,3 @@
-@import "https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap";
-*, :after, :before {
-  box-sizing: border-box;
-}
-
-:root {
-  font-size: 18px;
-}
-
-body {
-  --color-text: #111;
-  --color-text-labs: #00d47e;
-  --color-text-alt: #c1c1c3;
-  --color-bg: #f9fafe;
-  --color-link: #111;
-  --color-link-hover: #111;
-  --color-page: #f1f3f8;
-  --color-info: #c0c0c2;
-  width: 100%;
-  color: var(--color-text);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  counter-reset: section;
-  --cursor-stroke: none;
-  --cursor-fill: #00d47e;
-  --cursor-stroke-width: 1px;
-  --margin-images: 50px;
-  background-color: #fff;
-  background-image: url("https://transparenttextures.com/patterns/scribble-light.png");
-  margin: 0;
-  font-family: niveau-grotesk, sans-serif;
-  overflow: hidden scroll;
-}
-
-a:visited {
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-}
-
-.js .loading:before, .js .loading:after {
-  content: "";
-  z-index: 1000;
-  position: fixed;
-}
-
-.js .loading:before {
-  background: var(--color-bg);
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.js .loading:after {
-  opacity: .4;
-  background: var(--color-link);
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  margin: -30px 0 0 -30px;
-  animation: .7s linear infinite alternate forwards loaderAnim;
-  top: 50%;
-  left: 50%;
-}
-
-@keyframes loaderAnim {
-  to {
-    opacity: 1;
-    transform: scale3d(.5, .5, 1);
-  }
-}
-
-.HOW {
-  color: #005afc;
-  font-family: Sora, sans-serif;
-  font-weight: 400;
-}
-
-.intro {
-  color: #161617;
-  padding-right: 50vw;
-  font-family: Sora, sans-serif;
-  font-size: 2.778rem;
-  font-weight: 600;
-  position: relative;
-}
-
-.intro2, .intro3 {
-  color: #2d2d2f;
-  margin-bottom: 20px;
-  padding-right: 30vw;
-  font-family: Sora, sans-serif;
-  font-size: 1.5rem;
-  font-weight: 300;
-  position: relative;
-}
-
 .bgimg {
   color: #fff;
   background-position: center;
@@ -134,6 +37,12 @@ a:visited {
 
 .navbar-brand {
   height: 45px;
+}
+
+.wh_footer {
+  text-align: center;
+  padding: .4em;
+  font-size: 15px;
 }
 
 a:focus {

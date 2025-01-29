@@ -8,54 +8,6 @@ html, body {
   font-family: Roboto, sans-serif;
 }
 
-.bgimg {
-  color: #fff;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  font-family: Courier New, Courier, monospace;
-  position: relative;
-}
-
-.topleft {
-  position: absolute;
-  top: 20%;
-  left: 5%;
-}
-
-.middle {
-  position: inherit;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.sideTable {
-  margin-bottom: 15%;
-  font-size: large;
-  text-decoration: none;
-}
-
-.navbar {
-  background: #f2f2f2;
-  border: none;
-  border-radius: 0;
-  margin: 0;
-  padding-right: 15px;
-  box-shadow: 0 7px 21px -12px #000c;
-}
-
-.navbar-brand {
-  height: 45px;
-}
-
-.wh_footer {
-  text-align: center;
-  width: auto;
-  padding: .4em;
-  font-size: 15px;
-}
-
 .main-title {
   color: #000;
   letter-spacing: .8em;

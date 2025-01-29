@@ -2,14 +2,18 @@
   "name": "simsciex",
   "version": "1.0.0",
   "description": "Project Updates",
-  "repository": {
-    "url": "https://github.com/project-manager-globe/SimSciex-Project.git"
-  },
+  "type": "module",
+
   "scripts": {
-    "start": "parcel ./index.html --open",
-    "build:parcel": "parcel build ./index.html  --no-source-maps --public-url ./",
-    "build": "npm run build:parcel",
-    "type": "module"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "targets": {
+    "default": {
+      "engines": {
+        "browsers": "> 0.25%, not dead"
+      }
+    }
   },
   "author": "Estelle Gerber",
   "license": "ISC",

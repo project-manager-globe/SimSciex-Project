@@ -185,7 +185,7 @@ html, body {
     right: 0;
     bottom: 0;
     width: 250px;
-    height: 40vh;
+    height: 55vh;
     justify-content: space-between;
     transition: right 500ms cubic-bezier(0.55, 0.46, 0.45, 0.50); 
   }
@@ -198,7 +198,7 @@ html, body {
     right: 0;
     bottom: 0;
     width: 250px;
-    height: 30vh;
+    height: 55vh;
     justify-content: space-between;
     transition: right 500ms cubic-bezier(0.55, 0.46, 0.45, 0.50); 
   }
@@ -244,7 +244,7 @@ html, body {
   color:ghostwhite;
 }
 .menu #logoCSS3, .menu .elements-container {
-  padding: 5px 10px 10px 25px;
+  padding: 5px 10px 0px 25px;
 }
 .menu #logoCSS3 {
   font-size: 1em;
@@ -413,6 +413,8 @@ html, body {
 .element:nth-child(10n) {
   animation-delay: 2.5s;
 }
+
+
 
 /*--------------------------------------------------------First Container--------------------------------------------------------------*/
 

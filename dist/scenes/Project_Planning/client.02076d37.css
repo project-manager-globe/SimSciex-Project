@@ -636,7 +636,7 @@ html, body {
 }
 
 .none {
-  list-style: outside;
+  list-style: none;
 }
 
 .my-skills2 {

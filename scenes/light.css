@@ -357,7 +357,8 @@ a:focus {
 
 .content__item-imgwrap {
   position: relative;
-  --imgwidth: 100%;
+  --imgwidth: 90%;
+  --imgheight: 90%;
   margin: 0 auto;
   grid-area: 1 / 1 / 3 / 3;
   overflow: hidden;
@@ -379,7 +380,8 @@ a:focus {
   --overflow: 30px;
   height: calc(100% + (3 * var(--overflow)));
   top: calc(-1 * var(--overflow));
-  width: 100%;
+  width: 90%;
+  height: 90%;
   position: absolute;
   background-size: cover;
   background-position: 50% 0%;
@@ -403,7 +405,7 @@ a:focus {
 
 .content__item-title {
   position: relative;
-  font-size: var(--size-title);
+  font-size: 2.7rem;
   padding: 0 3vw;
   margin: calc(var(--size-title) * -1 / 2) 0 0 0;
   align-self: start;

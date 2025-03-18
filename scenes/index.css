@@ -181,6 +181,61 @@ a:hover {
 
 /* ----------------------------- Deleted from Navbar to here, moved to styles.css -------*/
 
+.HOW{
+	color: #005AFC;
+	font-family: "Sora", sans-serif;
+	font-weight: 500;
+	font-size: 25px;
+
+}
+
+.HOW2{
+	color: #c70c12;
+	font-family: "Sora", sans-serif;
+	font-weight: 400;
+
+}
+
+.intro {
+	font-family: "Sora", sans-serif;
+	font-weight: 600;
+        padding-right: 50vw;
+
+	position: relative;
+	font-size: 2.778rem;
+	color: #161617;
+}
+
+.intro2 {
+	font-family: "Sora", sans-serif;
+	font-weight: 400;
+	margin-left: 140px;
+	margin-bottom: 7px;
+	position: relative;
+	font-size: 1.5rem;
+	color: #070707;
+	text-align: left;
+}
+
+.intro3 {
+	font-family: "Sora", sans-serif;
+	font-weight: 300;
+	padding-left: 7vw;
+	margin-bottom: 15px;
+	position: relative;
+	font-size: 1.1rem;
+        color: #161617;
+}
+.intro4 {
+	font-family: "Sora", sans-serif;
+	font-weight: 300;
+	padding-left: 5vw;
+	margin-bottom: 20px;
+	position: relative;
+	font-size: 1.1rem;
+	color: #161617;
+}
+
 a:hover {
 	text-decoration: none;
 	color: var(--color-link-hover);
@@ -241,8 +296,18 @@ a:hover {
 	font-weight: 600;
 	margin-left: 70px;
 	position: relative;
-	font-size: 2.778rem;
+	font-size: 2rem;
 	color: #0137FB;
+}
+
+.content__START{
+	font-family: "Sora", sans-serif;
+	font-weight: 600;
+	margin-left: 110px;
+	position: relative;
+	font-size: 2rem;
+	color: #0137FB;
+	text-align: left;
 }
 
 
@@ -786,3 +851,6 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+.none{
+	list-style: none;
+  }

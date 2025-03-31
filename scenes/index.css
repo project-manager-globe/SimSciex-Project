@@ -790,11 +790,11 @@ a:hover {
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center;
-    width: 10.9rem;
-    height: 10.9rem;
+    width: 11rem;
+    height: 11rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    padding: .3rem;
+    padding: 0.5rem;
     border: 2px solid #b5b5b8;
     border-radius: 5%;
     background-color: #fff;
@@ -812,6 +812,9 @@ a:hover {
 	padding-left: 30px;
 }
 
+.sideTable{
+	border: 1px solid;
+}
 /*-----------------  closeBoc ------------------------*/
 /* The Modal (background) */
 .modal {
